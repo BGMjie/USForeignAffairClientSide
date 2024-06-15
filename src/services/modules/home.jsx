@@ -1,29 +1,27 @@
 import hyRequest from '@/services/request'
 
-export function getHomeData() {
+export function getTrumpData(payload) {
+  // console.log('到达getTrumpData函数')
+  // console.log('payload:' + payload[0])
+
   return hyRequest.get({
-    url: '/home/data'
+    url: '/v1_0/trump',
+    params: {
+      from_date: payload[0],
+      to_date: payload[1]
+    }
   })
 }
-export function getLyricData() {
-  hyRequest
-    .request({
-      url: '/lyric?id=500665346'
-    })
-    .then((res) => {
-      console.log('res:', res)
-    })
-}
 
-export function getLyricData2() {
-  hyRequest
-    .get({
-      url: '/lyric',
-      params: {
-        id: 500665346
-      }
-    })
-    .then((res) => {
-      console.log('res:', res)
-    })
+export function getMergedData(payload) {
+  // console.log('到达getTrumpData函数')
+  // console.log('payload:' + payload[0])
+
+  return hyRequest.get({
+    url: '/v1_0/merged',
+    params: {
+      from_date: payload[0],
+      to_date: payload[1]
+    }
+  })
 }

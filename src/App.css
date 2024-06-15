@@ -1,32 +1,15 @@
 .App {
 }
-#control {
-  display: flex;
-  justify-content: center;
-}
-#my_map {
-  display: flex;
-  justify-content: center;
-}
-/*#map {
-  height: 60vh;
-  width: 100vh;
-  position: relative;
-}*/
 
 #home {
   display: flex;
   justify-content: center;
 }
+
 .page{
   display: flex;
   padding: 100px;
   align-items: center;
   justify-content: center;
 }
-.date{
-  display: flex;
-  padding: 100px;
-  align-items: center;
-  justify-content: center;
-}
+

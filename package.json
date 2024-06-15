@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@antv/l7": "^2.14.5",
-    "@antv/larkmap": "^1.3.2",
+    "@antv/larkmap": "^1.3.5",
     "@reduxjs/toolkit": "^1.9.3",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

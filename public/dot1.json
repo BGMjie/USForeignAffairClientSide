@@ -1,16 +1,28 @@
 [
     {
-        "area": "泰国",
+        "area": "日本nnnn",
         "entryAmount": "0.02",
         "outboundAmount": "485.21",
         "dotid": 0,
         "value": 0.02,
         "info": "泰国 入境金额：$0.02万, 出境金额：$485.21万",
         "name": "泰国",
-        "lng": 100.992541,
-        "lat": 15.870032,
+        "lng": 139.2394179,
+        "lat": 36.5748441,
         "type": "ok"
     },
+    {
+    "area": "泰国",
+    "entryAmount": "0.02",
+    "outboundAmount": "485.21",
+    "dotid": 0,
+    "value": 0.02,
+    "info": "泰国 入境金额：$0.02万, 出境金额：$485.21万",
+    "name": "泰国",
+    "lng": 100.992541,
+    "lat": 15.870032,
+    "type": "ok"
+},
     {
         "area": "文莱",
         "entryAmount": "0.00",
